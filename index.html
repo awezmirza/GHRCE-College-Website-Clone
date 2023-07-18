@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Vidya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://ghrce.cybervidya.net/assets/images/favicon.ico" type="image/x-icon">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imagescnt">
+            <div class="ghrcelogocnt">
+                <img src="https://cybervidya.s3.ap-south-1.amazonaws.com/ghrce/instance-logo.jpg" alt="ghrce logo"
+                    class="logoscnt">
+            </div>
+            <div class="cbvdyalogocnt">
+                <img src="https://ghrce.cybervidya.net/assets/images/cyber-vidya-logo.jpg" alt="cybervidya logo"
+                    class="logoscnt">
+            </div>
+        </div>
+
+        <form>
+
+
+            <div class="Sign"> Sign In</div>
+
+            <div class="authcntnr">
+
+                <div class="formelementlabel">
+                    <label class="formlabels">User Name</label>
+                </div>
+
+                <div class="formelements ">
+                    <input type="text" class="forminput">
+                </div>
+
+                <div class="formelementlabel">
+                    <label class="formlabels">Password</label>
+                </div>
+
+                <div class="formelements">
+                    <input type="password" class="forminput">
+                </div>
+            </div>
+
+            <div class="dsply">
+                <div class="frgtpss" onclick="forgotpassword()">
+                    Forgot Password?
+                </div>
+            </div>
+            <script>
+                function forgotpassword() {
+                    alert("Forgot Password Called")
+                }
+            </script>
+            <div class="dsplyfl">
+                <div class="g-recaptcha" data-sitekey="6Lf4XjInAAAAAJ3Ku0fIntmFXwZCf0Qv70BlP8m3"></div>
+            </div>
+
+
+
+            <div class="btncntnr">
+                <button type="submit" class="btn">Login</button>
+            </div>
+        </form>
+    </div>
+    <img src="instance-bg.jpg" alt="" class="bg">
+</body>
+
+</html>
