@@ -37,6 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding-block: 5px;
 }
 
 .ghrcelogocnt {
@@ -59,7 +60,6 @@
 .Sign {
     padding-block: 20px;
     font-size: 20px;
-    font-weight: 700;
     padding-left: 15px;
 }
 
@@ -81,33 +81,8 @@
     /* justify-content: center; */
 }
 
-.formelements {
-    /* padding-block: 27px; */
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    padding-inline: 15px;
-    width: auto;
-    /* justify-content: center; */
-}
 
-.forminput {
-    /* width: auto; */
-    height: 33.4px;
-    padding-inline: 10px;
-    border: 0.8px solid rgb(196, 196, 196);
-    border-radius: 5px;
-    width: 200px;
-}
 
-.forminput:active {
-    /* width: auto; */
-    height: 33.4px;
-    padding-inline: 10px;
-    border: 0.8px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    width: 200px;
-}
 
 .formlabels {
     padding-inline: 15px;
@@ -131,7 +106,7 @@
     font-weight: 600;
     width: min-content;
     transition: background-color 0.5s ease;
-    
+
 }
 
 .btn:hover {
@@ -192,4 +167,45 @@ form {
     width: 70%;
     margin: 10px;
     padding: 20px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.material-symbols-outlined {
+    right: 50px;
+    color: rgb(196, 196, 196);
+    position: absolute;
+}
+
+.forminput:active {
+    /* width: auto; */
+    height: 33.4px;
+    padding-inline: 10px;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.forminput {
+    /* width: auto; */
+    height: 33.4px;
+    padding-inline: 10px;
+    border: 0.8px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+.formelements {
+    display: flex;
+    align-items: center;
+    padding-inline: 15px;
+    width: auto;
+    /* justify-content: center; */
 }
